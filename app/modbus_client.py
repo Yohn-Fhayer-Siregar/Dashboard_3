@@ -1,4 +1,4 @@
-from pymodbus.client import ModbusTcpClient
+from pymodbus.client import ModbusTcpClient #Library pymodbus
 
 class ModbusManager:
     def __init__(self):

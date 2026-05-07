@@ -46,6 +46,7 @@ def reset_robot():
     runner.reset_robot()
     return RedirectResponse(url="/", status_code=303)
 
+
 @app.post("/obstacle")
 def trigger_obstacle():
     runner.trigger_obstacle()
